@@ -1,0 +1,56 @@
+break: 14
+start-date: 2022-08-21T12:00:00Z
+start-day: wednesday
+semester: Fall 2022
+textbook: https://learn.zybooks.com/zybook/BOISESTATECS221PanterSpring2022
+discussion: https://piazza.com/
+github: https://github.com/shanep-cs2
+office-hours: https://boisestatecanvas.instructure.com/courses/10423/
+grades: https://boisestatecanvas.instructure.com/courses/10423/grades
+exams: https://boisestatecanvas.instructure.com/courses/10423/quizzes
+example-exams: https://boisestatecanvas.instructure.com/courses/10423/files/folder/example-exams
+learning-objectives: https://docs.google.com/spreadsheets/d/1zoWWf-NXggcKWp_bGPwvOySNuNCYd_C91EYy-ZxT7Ow/edit?usp=sharing
+instructor: Shane Panter
+email: shanepanter@boisestate.edu
+catalog: >
+   **CS221 Computer Science II (3-0-3)(F,S)**. Object-oriented design including inheritance, polymorphism,
+   and dynamic binding.  Recursion. Introduction to program correctness and testing/analysis of time/
+   space requirements. Basic data structures: lists, collections, stacks, and queues. Basic searching
+   and sorting. **PREREQ: CS121.**
+coursework:
+  Labs (11 @ 50 points each): 550
+  Reading (10 @ 20 points each): 200
+  Midterm Exam: 100
+  Final Project: 100
+  Final Exam: 100
+
+
+
+labs:
+   lesson02: /docs/starter-code.html
+   lesson04: /docs/starter-code.html
+   lesson06: /docs/starter-code.html
+   lesson08: /docs/starter-code.html
+   lesson10: /docs/starter-code.html
+   lesson12: /docs/starter-code.html
+   lesson14: /docs/starter-code.html
+   lesson18: /docs/starter-code.html 
+   lesson20: /docs/starter-code.html 
+   lesson22: /docs/starter-code.html
+   lesson24: /docs/starter-code.html
+   lesson26: /docs/starter-code.html
+   lesson28: /docs/starter-code.html
+   lesson30: /docs/starter-code.html
+
+
+reading:
+  lesson03: Reading Assignment (ch1)
+  lesson05: Reading Assignment (ch2.1-2.4)
+  lesson07: Reading Assignment (ch2.5-2.11)
+  lesson09: Reading Assignment (ch3)
+  lesson11: Reading Assignment (ch4)
+  lesson13: Reading Assignment (ch5)
+  lesson17: Reading Assignment (ch6.1-6.3)
+  lesson19: Reading Assignment (ch6.4-6.6)
+  lesson21: Reading Assignment (ch7.4-7.4)
+  lesson23: Reading Assignment (ch7.5-7.9)

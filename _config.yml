@@ -1,0 +1,34 @@
+title: Shane K. Panter
+email: shanepanter@boisestate.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  CS221 - Computer Science 2
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://shanep-cs2.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: shanepanter
+github_username:  shanep
+text_logo: //SKP
+
+# Build settings
+future: true
+show_drafts: false
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - run-jekyll.sh
+  - README.md
+  - LICENSE
+
+collections:
+  lessons:
+    output: true
+    title: "Computer Science 2"
+  docs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "course"
