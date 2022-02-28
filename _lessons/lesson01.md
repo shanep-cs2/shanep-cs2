@@ -25,7 +25,7 @@ explore the site.
 
 Go to the class discussion forum and post an introduction with the following information.
 
-**Hint:** The discussion form is linked on the [home page]({% link index.md %})
+**Hint:** The discussion form is linked on the [home page]({% link index.html %})
 
 - Name
 - Are you a CS major, minor, or other?
