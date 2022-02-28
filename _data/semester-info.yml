@@ -12,6 +12,7 @@ example-exams: https://boisestatecanvas.instructure.com/courses/10423/files/fold
 learning-objectives: https://docs.google.com/spreadsheets/d/1zoWWf-NXggcKWp_bGPwvOySNuNCYd_C91EYy-ZxT7Ow/edit?usp=sharing
 instructor: Shane Panter
 email: shanepanter@boisestate.edu
+text_logo: //CS221
 catalog: >
    **CS221 Computer Science II (3-0-3)(F,S)**. Object-oriented design including inheritance, polymorphism,
    and dynamic binding.  Recursion. Introduction to program correctness and testing/analysis of time/
