@@ -2,8 +2,8 @@ break: 14
 start-date: 2022-08-21T12:00:00Z
 start-day: wednesday
 semester: Fall 2022
-textbook: https://learn.zybooks.com/zybook/BOISESTATECS221PanterSpring2022
-discussion: https://piazza.com/
+textbook: https://learn.zybooks.com/zybook/BOISESTATECS221PanterFall2022
+discussion: piazza.com/boisestate/fall2022/cs221/home
 github: https://github.com/shanep-cs2
 office-hours: https://boisestatecanvas.instructure.com/courses/10423/
 grades: https://boisestatecanvas.instructure.com/courses/10423/grades
@@ -25,8 +25,6 @@ coursework:
   Final Project: 100
   Final Exam: 100
 
-
-
 labs:
    lesson02: /docs/starter-code.html
    lesson04: /docs/starter-code.html
@@ -42,7 +40,6 @@ labs:
    lesson26: /docs/starter-code.html
    lesson28: /docs/starter-code.html
    lesson30: /docs/starter-code.html
-
 
 reading:
   lesson03: Reading Assignment (ch1)
