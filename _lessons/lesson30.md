@@ -1,6 +1,6 @@
 ---
 title: Efficiency Experiments
-tag: linked list
+tag: List ADT
 layout: project
 lessons: [lesson26, lesson28, lesson30]
 ---

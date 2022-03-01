@@ -1,6 +1,6 @@
 ---
-title: List Part 1
-tag: linked list
+title: List ADT Part 1
+tag: List ADT
 layout: course
 ---
 

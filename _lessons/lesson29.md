@@ -1,6 +1,6 @@
 ---
 title: Implementation efficiency
-tag: linked list
+tag: List ADT
 layout: course
 ---
 
