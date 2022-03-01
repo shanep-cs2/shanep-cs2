@@ -29,6 +29,13 @@ will need to install the [coding pack for
 Java](https://code.visualstudio.com/learn/educators/installers) which will give you all the tools
 necessary to complete the labs.
 
+## Task 3 - Install Git
+
+You will also need to install git so it is available on the command line if necessary. Git can be
+download from [git-scm.com](http://git-scm.com/). If you are on windows make sure and install the
+**64-bit Git for Windows Setup** version. Keep all the setting default unless you **really** know
+what your doing.
+
 ## Task 3 - Post an Introduction
 
 Go to the class discussion forum and post an introduction with the following information.
@@ -38,4 +45,5 @@ Go to the class discussion forum and post an introduction with the following inf
 - Name
 - Are you a CS major, minor, or other?
 - How long ago did you take CS121 (last semester, last year, etc.)
+- Did you run into any issues when installing VSCode or Git?
 - (optional) Share one cool fact about yourself :)
