@@ -19,9 +19,17 @@ you'll be able to dedicate the time necessary to be successful in the course.
 ## Task 1 - Review and explore
 
 For this task all you need to do is read the [syllabus]({% link _docs/syllabus.md %}) and 
-explore the site.
+explore the site. Click through all the links and see if you can find anything that is missing
+or broken! You can get extra credit for any typo you find on the course website.
 
-## Task 2 - Post an Introduction
+## Task 2 - Install VSCode
+
+While you are free to use whatever IDE or editor you want the only supported editor is VSCode. You
+will need to install the [coding pack for
+Java](https://code.visualstudio.com/learn/educators/installers) which will give you all the tools
+necessary to complete the labs.
+
+## Task 3 - Post an Introduction
 
 Go to the class discussion forum and post an introduction with the following information.
 
