@@ -1,14 +1,12 @@
-break: 14
+break: 11
 start-date: 2022-08-21T12:00:00Z
 start-day: wednesday
-semester: Fall 2022
-textbook: https://learn.zybooks.com/zybook/BOISESTATECS221PanterFall2022
-discussion: piazza.com/boisestate/fall2022/cs221/home
+semester: Spring 2022
+textbook: https://learn.zybooks.com/zybook/BOISESTATECS221PanterSpring2022
+discussion: https://boisestatecanvas.instructure.com/courses/10258
 github: https://github.com/shanep-cs2
-office-hours: https://boisestatecanvas.instructure.com/courses/10423/
-grades: https://boisestatecanvas.instructure.com/courses/10423/grades
-exams: https://boisestatecanvas.instructure.com/courses/10423/quizzes
-example-exams: https://boisestatecanvas.instructure.com/courses/10423/files/folder/example-exams
+office-hours: https://boisestatecanvas.instructure.com/courses/10258
+grades: https://boisestatecanvas.instructure.com/courses/10258/grades
 learning-objectives: https://docs.google.com/spreadsheets/d/1zoWWf-NXggcKWp_bGPwvOySNuNCYd_C91EYy-ZxT7Ow/edit?usp=sharing
 instructor: Shane Panter
 email: shanepanter@boisestate.edu
