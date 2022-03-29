@@ -2,6 +2,7 @@
 title: Exceptions
 tag: exceptions
 layout: reading-zybooks
+points: 20
 ---
 
 ## Overview

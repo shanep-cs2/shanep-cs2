@@ -2,6 +2,7 @@
 title: Take the Midterm Knowledge check
 tag: midterm
 layout: course-notoc
+points: 100
 ---
 
 ## Overview

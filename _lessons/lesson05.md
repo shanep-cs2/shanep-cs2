@@ -2,6 +2,7 @@
 title: Inheritance Part 1
 tag: inheritance
 layout: reading-zybooks
+points: 20
 ---
 
 ## Overview

@@ -2,6 +2,7 @@
 title: Collections part 1
 tag: collections
 layout: reading-zybooks
+points: 20
 ---
 
 ## Overview

@@ -3,24 +3,19 @@ title: "Course Introduction"
 date: 2022-01-10
 tag: introduction
 layout: course-notoc
+points: 20
 ---
 
 ## Overview
 
 {% include youtube.html param="https://www.youtube.com/embed/RphInP_ivN8" %}
 
-For many students this will be the first time you have been exposed to more advanced Object Oriented
-(OO) programming concepts. This course has been designed to take someone who has never seen these
-concepts before to being able to understand and use them in 1 semester. In order to succeed in the
-course, it will be critical for you to manage your time effectively and keep up with the reading,
-and lab activities.  Please take the time to review your course schedule for this semester to ensure
-you'll be able to dedicate the time necessary to be successful in the course. 
-
 ## Task 1 - Review and explore
 
-For this task all you need to do is read the [syllabus]({% link _docs/syllabus.md %}) and 
-explore the site. Click through all the links and see if you can find anything that is missing
-or broken! You can get extra credit for any typo you find on the course website.
+For this task all you need to do is explore the site. Click through all the links and see if you can
+find anything that is missing or broken! You can get extra credit for any typo you find on the
+course website. Read all the class policies to make sure you are familiar with what is expected of
+you during the semester.
 
 ## Task 2 - Install Git
 

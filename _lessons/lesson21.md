@@ -2,6 +2,7 @@
 title: Searching
 tag: searching and sorting
 layout: reading-zybooks
+points: 20
 ---
 
 ## Overview
