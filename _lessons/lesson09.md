@@ -1,5 +1,4 @@
 ---
-title: Recursion
 tag: recursion
 layout: reading-zybooks
 points: 20

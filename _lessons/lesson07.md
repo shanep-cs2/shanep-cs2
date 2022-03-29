@@ -1,5 +1,4 @@
 ---
-title: Inheritance Part 2
 tag: inheritance
 layout: reading-zybooks
 points: 20
@@ -15,8 +14,9 @@ polymorphic code.
 
 ## Objectives
 
-- Explain polymorphism
-- Explain Abstract classes
+- Explain polymorphism as it is implemented in the Java Programming language
+- Identify how Java enforces encapsulation
+- Describe the differences between an Interface and Abstract class
 - Explain Is-a versus has-a relationships
 - Interpret UML
 - Explain Interfaces

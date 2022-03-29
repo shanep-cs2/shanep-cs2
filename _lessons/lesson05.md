@@ -1,5 +1,4 @@
 ---
-title: Inheritance Part 1
 tag: inheritance
 layout: reading-zybooks
 points: 20
@@ -13,6 +12,8 @@ to structure your code so you can model the real world.
 
 ## Objectives
 
+- Explain basic inheritance concepts as they are implemented in the Java Programming language
+- Identify how Java enforces encapsulation
 - Understand Derived classes
 - Understand how members of derived classes are accessed
 - Understand Overriding member methods

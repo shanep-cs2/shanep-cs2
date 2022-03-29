@@ -1,5 +1,4 @@
 ---
-title: "Review"
 tag: introduction
 layout: reading-zybooks
 points: 20

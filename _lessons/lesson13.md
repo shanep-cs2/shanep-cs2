@@ -1,5 +1,4 @@
 ---
-title: Generics
 tag: generics
 layout: reading-zybooks
 points: 20
