@@ -1,7 +1,7 @@
 ---
 title: Final Exam
 tag: final
-layout: course-notoc
+layout: course
 points: 100
 ---
 

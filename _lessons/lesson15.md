@@ -1,7 +1,7 @@
 ---
 title: Study for the Midterm Knowledge Check
 tag: midterm
-layout: course-notoc
+layout: course
 ---
 
 ## Overview

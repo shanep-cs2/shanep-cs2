@@ -2,7 +2,7 @@
 title: "Class coding Standards"
 date: 2022-01-20
 tags: coding standards
-layout: course-notoc
+layout: course
 ---
 
 ## Overview
