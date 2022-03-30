@@ -11,11 +11,3 @@ data. In previous lessons you have used an `ArrayList` to store data, now we wil
 other collections that are available. Java has a rich set of collections and it would be
 impractical to introduce them all in a one semester course. So we will introduce some core
 data-structures that are used to build more complex data-structures.
-
-
-## Objectives
-
-By the end of this lesson, you will be able to:
-
-- Identify node based data-structures (Linked List)
-- Identify when it is appropriate to use a Linked List

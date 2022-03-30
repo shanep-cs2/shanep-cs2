@@ -11,12 +11,3 @@ Polymorphism is just a fancy way of saying that your program will execute differ
 on the data type. In the Java programming language you have both compile-time polymorphism and
 runtime polymorphism. In this lesson we will explore all the language features that help you write
 polymorphic code.
-
-## Objectives
-
-- Explain polymorphism as it is implemented in the Java Programming language
-- Identify how Java enforces encapsulation
-- Describe the differences between an Interface and Abstract class
-- Explain Is-a versus has-a relationships
-- Interpret UML
-- Explain Interfaces
