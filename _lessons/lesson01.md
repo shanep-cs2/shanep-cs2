@@ -17,23 +17,7 @@ find anything that is missing or broken! You can get extra credit for any typo y
 course website. Read all the class policies to make sure you are familiar with what is expected of
 you during the semester.
 
-## Task 2 - Install Git
-
-You will also need to install git so it is available on the command line if necessary. Git can be
-download from [git-scm.com](http://git-scm.com/). If you are on windows make sure and install the
-**64-bit Git for Windows Setup** version. Keep all the setting default unless you **really** know
-what your doing.
-
-## Task 3 - Install VSCode
-
-While you are free to use whatever IDE or editor you want the only supported editor is VSCode. You
-will need to install the [coding pack for
-Java](https://code.visualstudio.com/learn/educators/installers) which will give you all the tools
-necessary to complete the labs.
-
-{% include youtube.html param="https://www.youtube.com/embed/lix7G-S8ox8" %}
-
-## Task 4 - Post an Introduction
+## Task 2 - Post an Introduction
 
 Go to the class discussion forum and post an introduction with the following information.
 

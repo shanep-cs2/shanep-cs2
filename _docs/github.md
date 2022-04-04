@@ -1,5 +1,5 @@
 ---
-title: Github
+title: Github Help
 layout: course
 ---
 
