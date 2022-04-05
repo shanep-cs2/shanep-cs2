@@ -2,6 +2,7 @@
 tag: recursion
 layout: reading-zybooks
 points: 20
+video: 1o2p6jt-0BA
 ---
 
 ## Overview

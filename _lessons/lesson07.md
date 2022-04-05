@@ -2,6 +2,7 @@
 tag: inheritance
 layout: reading-zybooks
 points: 20
+video: uOnRWrNh-Jk
 ---
 
 ## Overview

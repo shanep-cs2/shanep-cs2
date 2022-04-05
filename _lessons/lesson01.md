@@ -3,11 +3,8 @@ title: "Course Introduction"
 date: 2022-01-10
 tag: introduction
 layout: course
+video: h73OOO-0NLw
 ---
-
-## Overview
-
-{% include youtube.html param="https://www.youtube.com/embed/h73OOO-0NLw" %}
 
 ## Task 1 - Review and explore
 

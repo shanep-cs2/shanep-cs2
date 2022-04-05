@@ -2,6 +2,7 @@
 tag: introduction
 layout: reading-zybooks
 points: 20
+video: SQzASvJBCgc
 ---
 
 ## Overview
