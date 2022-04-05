@@ -7,12 +7,23 @@ layout: course
 
 ## Overview
 
-{% include youtube.html param="https://www.youtube.com/embed/RphInP_ivN8" %}
+{% include youtube.html param="https://www.youtube.com/embed/h73OOO-0NLw" %}
 
 ## Task 1 - Review and explore
 
 For this task all you need to do is explore the site. Click through all the links and see if you can
 find anything that is missing or broken! You can get extra credit for any typo you find on the
 course website. Read all the class policies to make sure you are familiar with what is expected of
-you during the semester. Once you are done with that head over to [lesson02]({% link _lessons/lesson02.md
-%}) and get started on the scavenger hunt!
+you during the semester. 
+
+## Task 2 - Textbook
+
+We will be using an online textbook for this class, the textbook has integrated homework that you
+will need to complete each week. Sign up for the [textbook]({{site.data.semester-info.textbook}})
+so you can get started on the first homework.
+
+
+## Task 3 - First Lab
+
+Once you are done with that head over to [lesson02]({% link _lessons/lesson02.md %}) and get started
+on the scavenger hunt!
