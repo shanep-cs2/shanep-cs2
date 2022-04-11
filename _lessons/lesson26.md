@@ -1,7 +1,7 @@
 ---
 title: List ADT (Nodes)
-tag: List ADT
+tag: final project
 layout: lab
-points: 50
+points: 100
 ---
 

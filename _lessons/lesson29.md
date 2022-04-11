@@ -1,10 +1,19 @@
 ---
-title: List Iterator
-tag: List ADT
+title: Semester Review and Evaluations
+tag: final
 layout: course
+points: (20)
 ---
 
-## Overview
+## Task 1 - Complete the Student Evaluation
 
-Now that we have two functional lists we are going to implement a [List
-Iterator](https://docs.oracle.com/javase/10/docs/api/java/util/ListIterator.html).
+Complete the [student evaluations]({{site.data.semester-info.student-evals}}). If at least 80% of
+the class completes the student evaluations I will add {{page.points}} points to everyone's grade!
+
+The evaluation should take no more than 5 minutes and your feedback is greatly appreciated!
+
+## Task 2 - Review your work
+
+Time to review for the final exam! The best way to review is to go back through all your old
+labs and refresh you memory. Once you have completed that you can study some of the old exams
+that are posted for you on [canvas]({{site.data.semester-info.sample-exams}})

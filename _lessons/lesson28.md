@@ -1,6 +1,6 @@
 ---
 title: List (Array)
-tag: List ADT
+tag: final project
 layout: lab
-points: 50
+points: 100
 ---

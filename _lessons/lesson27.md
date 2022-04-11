@@ -1,6 +1,6 @@
 ---
 title: List ADT Part 2
-tag: List ADT
+tag: final project
 layout: course
 ---
 

@@ -7,6 +7,9 @@ discussion: https://piazza.com/boisestate/fall2022/cs221/home
 github: https://github.com/cs221-fall2022
 office-hours: https://boisestatecanvas.instructure.com/courses/14333
 grades: https://boisestatecanvas.instructure.com/courses/14333/grades
+sample-exams: https://boisestatecanvas.instructure.com/courses/14333/files
+exams: https://boisestatecanvas.instructure.com/courses/14333/quizzes
+student-evals: https://boisestate.bluera.com/boisestate/
 learning-objectives: https://docs.google.com/spreadsheets/d/1zoWWf-NXggcKWp_bGPwvOySNuNCYd_C91EYy-ZxT7Ow/edit?usp=sharing
 instructor: Shane Panter
 email: shanepanter@boisestate.edu
@@ -44,7 +47,7 @@ labs:
    lesson24: https://classroom.github.com/a/TkZ4oNj_
    lesson26: /docs/starter-code.html
    lesson28: /docs/starter-code.html
-   lesson30: /docs/starter-code.html
+   lesson30: https://classroom.github.com/a/kiLuXnCi
 
 reading:
   lesson03: Reading Homework (ch1)
