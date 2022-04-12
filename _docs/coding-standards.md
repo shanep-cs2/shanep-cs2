@@ -34,10 +34,41 @@ are expected to ensure the following:
 - (-2 points) Code compiles without warnings, there are **NO** acceptable warnings. All warnings
   indicate a problem with your code.
 - (-2 points) All TODO sections in the Retrospective.md must be completed
-- If you program fails to compile it will be awarded 0 points. Absolutely no partial credit will be
-  given if your program does not compile.
 
-## Stuff I don't care about
+## Compiling code
+
+Unless otherwise stated all code must compile and run on the department's computers in the [Kount
+Computer Lab (CCP241)](https://cs481.boisestate.edu/ccp-tour/index.html). It doesn't matter if your
+code compiles on your machine, it must compile on the computers provided in CCP241. If you program
+fails to compile it will be awarded 0 points. Absolutely no partial credit will be given if your
+program does not compile. 
+
+You can access the lab computers remotely via ssh or you can go to the lab and use a work station
+directly.
+
+## Help! I got a 0!
+
+If you got a 0 for one of your labs all is not lost! It is possible to get points back. If your
+problem matches one of the scenarios below just execute the listed **solution** in order
+to get points back.
+
+- **Problem:** You didn't do the assignment. And the late window has passed.
+  - **Solution:** You can take advantage of the [extra credit lab]({% link _lessons/lesson30.md %})
+    if you wish.
+- **Problem:** Your code did not compile on the machines in the Kount Computer Lab.
+  - **Solution:** You need to go to the [Kount Computer Lab
+  (CCP241)](https://cs481.boisestate.edu/ccp-tour/index.html) or log in remotely and fix your code
+  so it compiles on the department machines. Once you have your code fixed you can email your
+  instructor and ask for a regrade. 
+  - **Note:** Only two regrades for compilation issues will be allowed per student for all labs.
+    After two incidents your grade will remain a 0.
+- **Problem:** You did the lab but forgot to push to github 🙁
+  - **Solution:** Make sure all your work is pushed to github and then email the instructor for a
+    regrade 
+  - **Note:** Only two regrades for "forgetting to push to github" will be allowed per student for
+    all labs. After two incidents your grade will remain a 0.
+
+## Spelling and Grammar
 
 I generally do not care about spelling or grammar mistakes. The only exception to this rule is if
 your spelling and grammar are so bad I literally can't make heads or tails of what you are trying to
@@ -76,5 +107,5 @@ Your programming labs and homework have been carefully crafted to ensure certain
 objectives]({{site.data.semester-info.learning-objectives}}) are satisfied. Thus you are required to
 solve the problem as described in the lab write up. For example, if a lab asks you to solve a
 problem using recursion and you think using iteration is the "better" solution you have defeated the
-purpose of the lab and you will receive 0 points for your work regardless if you got the right
-answer or not.
+purpose of the lab and you will receive 0 points for your work regardless if you got the correct
+output.
