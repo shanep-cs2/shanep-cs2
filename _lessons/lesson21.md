@@ -11,3 +11,7 @@ In this lesson, we will explore some basic searching algorithms.  Once you have 
 stuff you are going to want to search it for information and sort the information in a particular
 order. Not all searching algorithms are created equal. Thus we will also introduce algorithm
 analysis and Big-O notation so we can categorize all the different approaches.
+
+## Additional Videos
+
+- [Mason Vail - Algorithm analysis](https://youtu.be/3dwcrXdb9T0)

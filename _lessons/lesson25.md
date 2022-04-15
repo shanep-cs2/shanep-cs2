@@ -21,3 +21,9 @@ simpler algorithms when manipulating the list.
 ## Memory Layout
 
 ![Linked list visualization]({{site.url}}{% link /assets/images/list-sentinel.png %})
+
+## Additional Videos
+
+- [Mason Vail - Linked List](https://www.youtube.com/watch?v=glmVYEuC2ps)
+- [Mason Vail - Iterators](https://youtu.be/SrdPwpmCtts)
+- [Mason Vail - ListIterator](https://www.youtube.com/watch?v=iPjqz1lyISw)

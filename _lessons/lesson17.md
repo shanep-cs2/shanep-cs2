@@ -12,3 +12,9 @@ data. In previous lessons you have used an `ArrayList` to store data, now we wil
 other collections that are available. Java has a rich set of collections and it would be
 impractical to introduce them all in a one semester course. So we will introduce some core
 data-structures that are used to build more complex data-structures.
+
+
+## Additional Videos
+
+- [Mason Vail - Abstraction Vid](https://youtu.be/M8E_ZqPGXso)
+- [Mason Vail - ADT](https://youtu.be/aQebLPnNG_A)

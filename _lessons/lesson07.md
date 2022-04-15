@@ -12,3 +12,8 @@ Polymorphism is just a fancy way of saying that your program will execute differ
 on the data type. In the Java programming language you have both compile-time polymorphism and
 runtime polymorphism. In this lesson we will explore all the language features that help you write
 polymorphic code.
+
+## Additional Videos
+
+
+- [Mason Vail - Polymorphism](https://youtu.be/NAqex7GXbSg)

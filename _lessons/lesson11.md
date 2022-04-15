@@ -13,3 +13,7 @@ Java has exceptions built into the language to help solve these issues. When you
 unknown state you can throw an exception! When you used other code you may have to catch and
 exception. Proper exception handling will make the difference between a robust application that will
 be easy to maintain and a flaky application that is constantly crashing.
+
+## Additional Videos
+
+- [Mason Vail - Exceptions](https://youtu.be/0pWlBYKuPLU)

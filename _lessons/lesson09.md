@@ -12,3 +12,6 @@ smaller instances of the same problem. Or to put it simply it is when a method c
 find the answer to a problem! There are a lot of problems in computer science that are naturally
 recursive and the resulting algorithms can be quite elegant.
 
+## Additional Videos
+
+- [Mason Vail - Recursion](https://youtu.be/h5iDG3yh5HY)
