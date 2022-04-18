@@ -2,5 +2,5 @@
 title: Warmup
 tag: introduction
 layout: lab
-points: 50
+points: 25
 ---

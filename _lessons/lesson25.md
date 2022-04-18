@@ -1,29 +1,23 @@
 ---
-title: List ADT Part 1
+title: List ADT
 tag: final project
-layout: course
+layout: project
+lessons: [lesson25, lesson26, lesson27, lesson28]
+points: 200
 ---
 
 ## Overview
 
 Now that we have studied how to use built in data structures and algorithms it is time to write our
-own! We are going to construct a doubly linked list that uses a sentinel node. 
+own! For our final project in this class we are going to construct a linked list. We will use two
+different methods to implement the linked list one will use nodes to store our data and one will use
+and array!  This should help demonstrate the power of interfaces and how different implementations
+can give you different performance characteristics.
 
-It is sometimes helpful to draw out what your data structure will look like in memory before you
-start coding anything up. Having a visual model to reference can aid in both development and
-testing. The diagram below shows a list with 3 elements and a sentinel node. You can see that the
-next pointer in node **n3** points back to the sentinel node and the prev pointer of **n1** points
-back to the sentinel node. Each node has a data pointer that will hold a reference to the data that
-is being stored in the list. There are many ways to implement a linked list. Two common ways are to
-use a null terminated list or to use a sentinel node. A sentinel node allows us to write slightly
-simpler algorithms when manipulating the list.
-
-## Memory Layout
-
-![Linked list visualization]({{site.url}}{% link /assets/images/list-sentinel.png %})
 
 ## Additional Videos
 
 - [Mason Vail - Linked List](https://www.youtube.com/watch?v=glmVYEuC2ps)
+- [Mason Vail - ArrayList](https://www.youtube.com/watch?v=Pb-z1fC3JBQ)
 - [Mason Vail - Iterators](https://youtu.be/SrdPwpmCtts)
 - [Mason Vail - ListIterator](https://www.youtube.com/watch?v=iPjqz1lyISw)

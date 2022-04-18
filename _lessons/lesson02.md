@@ -2,5 +2,5 @@
 title:  Scavenger Hunt
 tag: introduction
 layout: lab
-points: 50
+points: 25
 ---
