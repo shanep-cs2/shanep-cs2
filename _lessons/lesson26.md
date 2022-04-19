@@ -2,7 +2,6 @@
 title: Checkpoint 1
 tag: final project
 layout: project
-lessons: [lesson25, lesson26, lesson27, lesson28]
 ---
 
 This checkpoint is pretty simple! All you have to do accept the assignment watch the video that is

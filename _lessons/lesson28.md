@@ -2,7 +2,6 @@
 title: Checkpoint 3
 tag: final project
 layout: project
-lessons: [lesson25, lesson26, lesson27, lesson28]
 ---
 
 At this checkpoint you should be completed with both the Node and Array based implementation of your

@@ -2,7 +2,6 @@
 title: List ADT
 tag: final project
 layout: project
-lessons: [lesson25, lesson26, lesson27, lesson28]
 points: 200
 ---
 
