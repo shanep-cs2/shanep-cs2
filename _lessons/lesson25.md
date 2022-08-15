@@ -13,7 +13,6 @@ different methods to implement the linked list one will use nodes to store our d
 and array!  This should help demonstrate the power of interfaces and how different implementations
 can give you different performance characteristics.
 
-
 ## Additional Videos
 
 - [Mason Vail - Linked List](https://www.youtube.com/watch?v=glmVYEuC2ps)
