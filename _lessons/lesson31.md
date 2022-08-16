@@ -2,7 +2,7 @@
 title: Final Exam
 tag: final
 layout: course
-points: 100
+points: 180
 ---
 
 ![exam week meme](/assets/images/exam-week.jpeg)

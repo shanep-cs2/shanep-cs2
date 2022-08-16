@@ -1,5 +1,5 @@
 ---
-title: List ADT
+title: Final Project - List ADT
 tag: final project
 layout: project
 points: 200

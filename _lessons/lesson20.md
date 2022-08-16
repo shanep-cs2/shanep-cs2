@@ -1,5 +1,5 @@
 ---
-title: Using a Deque (ch6)
+title: Lab 8 (ch6)
 tag: collections
 layout: lab
 points: 50

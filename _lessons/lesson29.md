@@ -2,7 +2,7 @@
 title: Semester Review and Evaluations
 tag: final
 layout: course
-points: (20)
+points: 20
 ---
 
 ## Task 1 - Complete the Student Evaluation

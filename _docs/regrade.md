@@ -6,7 +6,7 @@ layout: course
 ---
 ## Overview
 
-If you lost points on one of your labs all is not lost! There are is a make up lab that you can take advantage of to improve
+If you lost points on one of your labs all is not lost! There is a make up lab that you can take advantage of to improve
 your grade. For the make up lab you can pick ANY of your previous labs and resubmit them for a higher grade. The starter code
 will be an empty repository. All you need to do is copy all the code from your old lab into the lab repo, fix any issues that
 you had and then re-submit!

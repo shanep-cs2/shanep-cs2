@@ -7,46 +7,149 @@ layout: course
 
 ## Overview
 
-This document applies to all coding labs turned in during the semester. You are expected to follow
-these standards for all the code that you submit.
-
-## Coding Standards
-
-These standards are not optional, failure to adhere to the standards below will result in the
-grade penalty specified. In addition to passing all functional tests for your labs you
-are expected to ensure the following:
-
-- (-2 points) Code must be formatted consistently. I don't enforce any particular style, I expect
-  your code to look consistent. Google has a pretty good [style
-    guide](https://google.github.io/styleguide/javaguide.html) that you can follow. Choose a style
-    and stick with it! [VSCode](https://code.visualstudio.com/docs/editor/codebasics#_formatting)
-    will format your code for you, so there really is no excuse for turning in badly formatted code.
-- (-2 points) `@Override` must be present on all methods that are overridden.
-- The only part of the class that can be declared **public** are methods. All fields, properties, or
-  variables must be declared **private**.
-- (-2 points) [Javadoc](https://en.wikipedia.org/wiki/Javadoc) is required for all java files.
-  - Any file that is marked with **DO NOT MODIFY** is exempt from this rule
-- (-10 points) Writing Unit tests is not optional! You must have at least one unit test written for
-  every class that you author. Be aware that most labs will require more than just one test!
-  - Are all possible return values for methods
-  - Passing null objects to method should not crash your program
-  - Passing invalid method values should be handled as specified
-  - Every project has a small set of example tests to help guide you. The tests are not complete and you must author your own
-    tests.
-- (-2 points) Code compiles without warnings, there are **NO** acceptable warnings. All warnings
-  indicate a problem with your code.
-- (-2 points) All TODO sections in the Retrospective.md must be completed
+This document applies to all coding labs turned in during the semester. You are expected to follow these standards for all
+the code that you submit. Writing code is similar to writing an essay in english, part of writing a good paper is proper
+paragraph breaks and document structure. You wouldn't turn in an english 101 paper with 0 paragraph breaks, or proper
+punctuation and expect to receive a 100% and the same exists for writing code. So take some time to make sure your code
+**looks** nice as well as the functional requirements.
 
 ## Compiling code
 
-Unless otherwise stated all code must compile and run on the department's computers in the [Kount
-Computer Lab (CCP241)](https://cs481.boisestate.edu/ccp-tour/index.html). It doesn't matter if your
-code compiles on your machine, it must compile on the computers provided in CCP241. If you program
-fails to compile it will be awarded 0 points. Absolutely no partial credit will be given if your
-program does not compile. 
+Unless otherwise stated all code must compile and run on the department's computers in the [Kount Computer Lab
+(CCP241)](https://cs481.boisestate.edu/ccp-tour/index.html). It doesn't matter if your code compiles on your machine, it must
+compile on the computers provided in CCP241. **If you program fails to compile it will be awarded 0 points**. Absolutely no
+partial credit will be given if your program does not compile.
 
 You can access the lab computers remotely via ssh or you can go to the lab and use a work station
 directly.
+
+## Functional requirements
+
+Your code must meet all the functional requirements that are listed in the specification document (located in your github
+repository). Functional requirements are worth 65% of the lab grade. Partial credit will be given for functional requirements
+if applicable.
+
+Your code will be graded on the command line using the provided gradle build scripts. Your instructor or TA will not use an
+IDE to build your code. Below is an example of how your code will be graded using gradle and the terminal.
+
+{% include asciinema.html cast="grading.cast"%}
+
+## Coding Standards
+
+These standards are not optional, failure to adhere to the standards below will result in the grade penalty specified. In
+total these standards are worth 35% of the lab grade (5% each). In addition to passing all functional tests for your labs you
+are expected to ensure the following criteria are met. Each criteria listed below is **pass/fail**, failing a criteria (no
+matter how small) will result in a deduction.
+
+### Criteria 1
+
+Code must be formatted consistently. I don't enforce any particular style, however I expect your code to look consistent.
+Google has a pretty good [style guide](https://google.github.io/styleguide/javaguide.html) that you can follow. Choose a
+style and stick with it! [VSCode](https://code.visualstudio.com/docs/editor/codebasics#_formatting) will format your code for
+you, so there really is no excuse for turning in badly formatted code.
+
+In the example below you would receive a deduction because the method `second()` is not at the correct indentation level.
+
+```java
+public class Foo{
+
+  public void first(){
+
+  }
+
+        //this is not indented correctly
+        public void second(){
+
+        }
+}
+```
+
+### Criteria 2
+
+`@Override` must be present on all methods that are overridden.
+
+In the example below you would receive a deduction because the method `show()` in the Child class does not have the
+`@Override` annotation. It doesn't matter if this code compiles and works perfectly! You **MUST** have the correct
+annotations.
+
+```java
+public class Parent {
+    void show(){
+        System.out.println("Parent method");
+    }
+}
+  
+public class Child extends Parent {
+    //Missing override!!
+    void show(){
+        System.out.println("Child method");
+    }
+}
+```
+
+### Criteria 3
+
+The only part of the class that can be declared **public** are methods. All fields, properties, or variables must be declared
+**private**.
+
+In the example below you would receive a deduction because the field `bar` is declared public when it should be private.
+
+```java
+public class Foo{
+
+  //This should be declared private!
+  public int bar;
+
+  public int getBar(){
+    return this.bar;
+  }
+
+  public int setBar(int bar){
+    this.bar = bar;
+  }
+
+}
+```
+
+### Criteria 4
+
+[Javadoc](https://en.wikipedia.org/wiki/Javadoc) is required for all java files. Any file that is marked with **DO NOT
+MODIFY** is exempt from this rule
+
+In the example below you would receive a deduction because the method `first()` does not have a Javadoc comment.
+
+```java
+/**
+ * This is the Foo class and makes lots of Foo!
+ */
+public class Foo{
+
+  public void first(){
+
+  }
+}
+```
+
+### Criteria 5
+
+Writing Unit tests is not optional! You must have at least one unit test written for every class that you author. Be aware
+that most labs will require more than just one test! Every project has a small set of example tests to help guide you. The
+tests are not complete and you must author your own tests.
+
+Here are some guidelines for writing unit tests.
+
+- Are all possible return values for methods
+- Passing null objects to a method should not crash your program
+- Passing invalid method values should be handled as specified
+
+### Criteria 6
+
+Code compiles without warnings, there are **NO** acceptable warnings. All warnings indicate a problem with your code. You
+are not allowed to suppress any warnings you must fix the issue in your code.
+
+### Criteria 7
+
+All TODO sections in the Retrospective.md must be completed
 
 ## Spelling and Grammar
 
@@ -73,13 +176,6 @@ interface Foo {
   public void bar();
 }
 ```
-
-## Grading example
-
-Your code will be graded on the command line. Your instructor or TA will not use an IDE to build
-your code. Below is an example of how your code will be graded using gradle and the terminal.
-
-{% include asciinema.html cast="grading.cast"%}
 
 ## Artistic License
 
