@@ -19,6 +19,11 @@ We will be using an online textbook for this class, the textbook has integrated 
 will need to complete each week. Sign up for the [textbook]({{site.data.semester-info.textbook}})
 so you can get started on the first homework.
 
+## Task 3 - Discussion Forum
+
+Participation in the class [discussion forum]({{site.data.semester-info.discussion}}) is mandatory this semester. Your
+instructor has already added you to the forum, if you can not access it please email your instructor **ASAP**! Log onto the
+forum and respond to any messages posted by your instructor or fellow students.
 
 ## Task 3 - First Lab
 
