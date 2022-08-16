@@ -4,26 +4,27 @@ date: 2022-04-13
 tags: grading
 layout: course
 ---
-## Overview 
+## Overview
 
-If you lost points on one of your labs all is not lost! It is possible to get points back. If your
-problem matches one of the scenarios below just execute the listed **solution** in order
-to get points back.
+If you lost points on one of your labs all is not lost! There are is a make up lab that you can take advantage of to improve
+your grade. For the make up lab you can pick ANY of your previous labs and resubmit them for a higher grade. The starter code
+will be an empty repository. All you need to do is copy all the code from your old lab into the lab repo, fix any issues that
+you had and then re-submit!
 
-## Options
+- [Make up Lab]({% link _lessons/lesson30.md %})
+
+Once you are ready to have your makeup lab graded you **MUST** send an email to your instructor requesting a regrade!
+
+## Guidelines
 
 - **Problem:** You didn't do the assignment. And the late window has passed.
-  - **Solution:** You can take advantage of the [extra credit lab]({% link _lessons/lesson30.md %})
-    if you wish.
-- **Problem:** Your code did not compile on the machines in the Kount Computer Lab.
-  - **Solution:** You need to go to the [Kount Computer Lab
-  (CCP241)](https://cs481.boisestate.edu/ccp-tour/index.html) or log in remotely and fix your code
-  so it compiles on the department machines. Once you have your code fixed you can email your
-  instructor and ask for a regrade. 
-  - **Note:** Only two regrades for compilation issues will be allowed per student for all labs.
-    After two incidents your grade will remain a 0.
+  - **Solution:** Copy your completed lab to the make up lab and email your instructor.
+- **Problem:** Your code did not compile.
+  - **Solution:** You need to go to the [Kount Computer Lab (CCP241)](https://cs481.boisestate.edu/ccp-tour/index.html) or
+  log in remotely and fix your code so it compiles on the department machines. Once you have your code fixed you can email
+  your instructor and ask for a regrade. You may want to attend office hours for additional guidance.
 - **Problem:** You did the lab but forgot to push to github 🙁
-  - **Solution:** Make sure all your work is pushed to github and then email the instructor for a
-    regrade 
-  - **Note:** Only two regrades for "forgetting to push to github" will be allowed per student for
-    all labs. After two incidents your grade will remain a 0.
+  - **Solution:** Copy your completed lab to the make up lab and email your instructor.
+
+TODO: Give a brief overview of why you are resubmitting the lab. What problem did you fix? How did you verify that you
+fixed it?
