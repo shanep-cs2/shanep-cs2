@@ -71,7 +71,7 @@
 
 
     <h2 id="Toc">Contents</h2>
-    <ul><li><a href="#overview">Overview</a></li><li><a href="#coding-standards">Coding Standards</a></li><li><a href="#compiling-code">Compiling code</a></li><li><a href="#spelling-and-grammar">Spelling and Grammar</a></li><li><a href="#do-not-modify">DO NOT MODIFY</a></li><li><a href="#grading-example">Grading example</a></li><li><a href="#artistic-license">Artistic License</a></li></ul>
+    <ul><li><a href="#overview">Overview</a></li><li><a href="#compiling-code">Compiling code</a></li><li><a href="#functional-requirements">Functional requirements</a></li><li><a href="#coding-standards">Coding Standards</a><ul><li><a href="#criteria-1">Criteria 1</a></li><li><a href="#criteria-2">Criteria 2</a></li><li><a href="#criteria-3">Criteria 3</a></li><li><a href="#criteria-4">Criteria 4</a></li><li><a href="#criteria-5">Criteria 5</a></li><li><a href="#criteria-6">Criteria 6</a></li><li><a href="#criteria-7">Criteria 7</a></li></ul></li><li><a href="#spelling-and-grammar">Spelling and Grammar</a></li><li><a href="#do-not-modify">DO NOT MODIFY</a></li><li><a href="#artistic-license">Artistic License</a></li></ul>
 
 </div>
 
@@ -91,49 +91,11 @@
       </h2>
     
 
-<p>This document applies to all coding labs turned in during the semester. You are expected to follow
-these standards for all the code that you submit.</p>
-      <h2 id="coding-standards">
-        
-        
-          Coding Standards <a href="#coding-standards">#</a>
-        
-        
-      </h2>
-    
-
-<p>These standards are not optional, failure to adhere to the standards below will result in the
-grade penalty specified. In addition to passing all functional tests for your labs you
-are expected to ensure the following:</p>
-
-<ul>
-  <li>(-2 points) Code must be formatted consistently. I don’t enforce any particular style, I expect
-your code to look consistent. Google has a pretty good <a href="https://google.github.io/styleguide/javaguide.html">style
-  guide</a> that you can follow. Choose a style
-  and stick with it! <a href="https://code.visualstudio.com/docs/editor/codebasics#_formatting">VSCode</a>
-  will format your code for you, so there really is no excuse for turning in badly formatted code.</li>
-  <li>(-2 points) <code class="language-plaintext highlighter-rouge">@Override</code> must be present on all methods that are overridden.</li>
-  <li>The only part of the class that can be declared <strong>public</strong> are methods. All fields, properties, or
-variables must be declared <strong>private</strong>.</li>
-  <li>(-2 points) <a href="https://en.wikipedia.org/wiki/Javadoc">Javadoc</a> is required for all java files.
-    <ul>
-      <li>Any file that is marked with <strong>DO NOT MODIFY</strong> is exempt from this rule</li>
-    </ul>
-  </li>
-  <li>(-10 points) Writing Unit tests is not optional! You must have at least one unit test written for
-every class that you author. Be aware that most labs will require more than just one test!
-    <ul>
-      <li>Are all possible return values for methods</li>
-      <li>Passing null objects to method should not crash your program</li>
-      <li>Passing invalid method values should be handled as specified</li>
-      <li>Every project has a small set of example tests to help guide you. The tests are not complete and you must author your own
-tests.</li>
-    </ul>
-  </li>
-  <li>(-2 points) Code compiles without warnings, there are <strong>NO</strong> acceptable warnings. All warnings
-indicate a problem with your code.</li>
-  <li>(-2 points) All TODO sections in the Retrospective.md must be completed</li>
-</ul>
+<p>This document applies to all coding labs turned in during the semester. You are expected to follow these standards for all
+the code that you submit. Writing code is similar to writing an essay in english, part of writing a good paper is proper
+paragraph breaks and document structure. You wouldn’t turn in an english 101 paper with 0 paragraph breaks, or proper
+punctuation and expect to receive a 100% and the same exists for writing code. So take some time to make sure your code
+<strong>looks</strong> nice as well as the functional requirements.</p>
       <h2 id="compiling-code">
         
         
@@ -143,14 +105,196 @@ indicate a problem with your code.</li>
       </h2>
     
 
-<p>Unless otherwise stated all code must compile and run on the department’s computers in the <a href="https://cs481.boisestate.edu/ccp-tour/index.html">Kount
-Computer Lab (CCP241)</a>. It doesn’t matter if your
-code compiles on your machine, it must compile on the computers provided in CCP241. If you program
-fails to compile it will be awarded 0 points. Absolutely no partial credit will be given if your
-program does not compile.</p>
+<p>Unless otherwise stated all code must compile and run on the department’s computers in the <a href="https://cs481.boisestate.edu/ccp-tour/index.html">Kount Computer Lab
+(CCP241)</a>. It doesn’t matter if your code compiles on your machine, it must
+compile on the computers provided in CCP241. <strong>If you program fails to compile it will be awarded 0 points</strong>. Absolutely no
+partial credit will be given if your program does not compile.</p>
 
 <p>You can access the lab computers remotely via ssh or you can go to the lab and use a work station
 directly.</p>
+      <h2 id="functional-requirements">
+        
+        
+          Functional requirements <a href="#functional-requirements">#</a>
+        
+        
+      </h2>
+    
+
+<p>Your code must meet all the functional requirements that are listed in the specification document (located in your github
+repository). Functional requirements are worth 65% of the lab grade. Partial credit will be given for functional requirements
+if applicable.</p>
+
+<p>Your code will be graded on the command line using the provided gradle build scripts. Your instructor or TA will not use an
+IDE to build your code. Below is an example of how your code will be graded using gradle and the terminal.</p>
+
+<div>
+    <script src="https://shanep-cs2.github.io/assets/js/asciinema-player.js"></script>
+    <asciinema-player cols="100" rows="25" speed="1" idle-time-limit="2" src="/assets/casts/grading.cast"></asciinema-player>
+</div>
+      <h2 id="coding-standards">
+        
+        
+          Coding Standards <a href="#coding-standards">#</a>
+        
+        
+      </h2>
+    
+
+<p>These standards are not optional, failure to adhere to the standards below will result in the grade penalty specified. In
+total these standards are worth 35% of the lab grade (5% each). In addition to passing all functional tests for your labs you
+are expected to ensure the following criteria are met. Each criteria listed below is <strong>pass/fail</strong>, failing a criteria (no
+matter how small) will result in a deduction.</p>
+      <h3 id="criteria-1">
+        
+        
+          Criteria 1 <a href="#criteria-1">#</a>
+        
+        
+      </h3>
+    
+
+<p>Code must be formatted consistently. I don’t enforce any particular style, however I expect your code to look consistent.
+Google has a pretty good <a href="https://google.github.io/styleguide/javaguide.html">style guide</a> that you can follow. Choose a
+style and stick with it! <a href="https://code.visualstudio.com/docs/editor/codebasics#_formatting">VSCode</a> will format your code for
+you, so there really is no excuse for turning in badly formatted code.</p>
+
+<p>In the example below you would receive a deduction because the method <code class="language-plaintext highlighter-rouge">second()</code> is not at the correct indentation level.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Foo</span><span class="o">{</span>
+
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">first</span><span class="o">(){</span>
+
+  <span class="o">}</span>
+
+        <span class="c1">//this is not indented correctly</span>
+        <span class="kd">public</span> <span class="kt">void</span> <span class="nf">second</span><span class="o">(){</span>
+
+        <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+      <h3 id="criteria-2">
+        
+        
+          Criteria 2 <a href="#criteria-2">#</a>
+        
+        
+      </h3>
+    
+
+<p><code class="language-plaintext highlighter-rouge">@Override</code> must be present on all methods that are overridden.</p>
+
+<p>In the example below you would receive a deduction because the method <code class="language-plaintext highlighter-rouge">show()</code> in the Child class does not have the
+<code class="language-plaintext highlighter-rouge">@Override</code> annotation. It doesn’t matter if this code compiles and works perfectly! You <strong>MUST</strong> have the correct
+annotations.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Parent</span> <span class="o">{</span>
+    <span class="kt">void</span> <span class="nf">show</span><span class="o">(){</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Parent method"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+  
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Child</span> <span class="kd">extends</span> <span class="nc">Parent</span> <span class="o">{</span>
+    <span class="c1">//Missing override!!</span>
+    <span class="kt">void</span> <span class="nf">show</span><span class="o">(){</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Child method"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+      <h3 id="criteria-3">
+        
+        
+          Criteria 3 <a href="#criteria-3">#</a>
+        
+        
+      </h3>
+    
+
+<p>The only part of the class that can be declared <strong>public</strong> are methods. All fields, properties, or variables must be declared
+<strong>private</strong>.</p>
+
+<p>In the example below you would receive a deduction because the field <code class="language-plaintext highlighter-rouge">bar</code> is declared public when it should be private.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Foo</span><span class="o">{</span>
+
+  <span class="c1">//This should be declared private!</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="n">bar</span><span class="o">;</span>
+
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">getBar</span><span class="o">(){</span>
+    <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">bar</span><span class="o">;</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">setBar</span><span class="o">(</span><span class="kt">int</span> <span class="n">bar</span><span class="o">){</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">bar</span> <span class="o">=</span> <span class="n">bar</span><span class="o">;</span>
+  <span class="o">}</span>
+
+<span class="o">}</span>
+</code></pre></div></div>
+      <h3 id="criteria-4">
+        
+        
+          Criteria 4 <a href="#criteria-4">#</a>
+        
+        
+      </h3>
+    
+
+<p><a href="https://en.wikipedia.org/wiki/Javadoc">Javadoc</a> is required for all java files. Any file that is marked with <strong>DO NOT
+MODIFY</strong> is exempt from this rule</p>
+
+<p>In the example below you would receive a deduction because the method <code class="language-plaintext highlighter-rouge">first()</code> does not have a Javadoc comment.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+ * This is the Foo class and makes lots of Foo!
+ */</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Foo</span><span class="o">{</span>
+
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">first</span><span class="o">(){</span>
+
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+      <h3 id="criteria-5">
+        
+        
+          Criteria 5 <a href="#criteria-5">#</a>
+        
+        
+      </h3>
+    
+
+<p>Writing Unit tests is not optional! You must have at least one unit test written for every class that you author. Be aware
+that most labs will require more than just one test! Every project has a small set of example tests to help guide you. The
+tests are not complete and you must author your own tests.</p>
+
+<p>Here are some guidelines for writing unit tests.</p>
+
+<ul>
+  <li>Are all possible return values for methods</li>
+  <li>Passing null objects to a method should not crash your program</li>
+  <li>Passing invalid method values should be handled as specified</li>
+</ul>
+      <h3 id="criteria-6">
+        
+        
+          Criteria 6 <a href="#criteria-6">#</a>
+        
+        
+      </h3>
+    
+
+<p>Code compiles without warnings, there are <strong>NO</strong> acceptable warnings. All warnings indicate a problem with your code. You
+are not allowed to suppress any warnings you must fix the issue in your code.</p>
+      <h3 id="criteria-7">
+        
+        
+          Criteria 7 <a href="#criteria-7">#</a>
+        
+        
+      </h3>
+    
+
+<p>All TODO sections in the Retrospective.md must be completed</p>
       <h2 id="spelling-and-grammar">
         
         
@@ -188,22 +332,6 @@ grading occurs, if this causes your program to not compile your grade will be a 
   <span class="kd">public</span> <span class="kt">void</span> <span class="nf">bar</span><span class="o">();</span>
 <span class="o">}</span>
 </code></pre></div></div>
-      <h2 id="grading-example">
-        
-        
-          Grading example <a href="#grading-example">#</a>
-        
-        
-      </h2>
-    
-
-<p>Your code will be graded on the command line. Your instructor or TA will not use an IDE to build
-your code. Below is an example of how your code will be graded using gradle and the terminal.</p>
-
-<div>
-    <script src="https://shanep-cs2.github.io/assets/js/asciinema-player.js"></script>
-    <asciinema-player cols="100" rows="25" speed="1" idle-time-limit="2" src="/assets/casts/grading.cast"></asciinema-player>
-</div>
       <h2 id="artistic-license">
         
         
