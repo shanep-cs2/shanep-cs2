@@ -8,11 +8,11 @@ layout: course
 ## Overview
 
 This document applies to all coding labs turned in during the semester. You are expected to follow
-these standards for all the code that you submit. 
+these standards for all the code that you submit.
 
 ## Coding Standards
 
-These standards are not optional, failure to adhere to the standards below will result in the 
+These standards are not optional, failure to adhere to the standards below will result in the
 grade penalty specified. In addition to passing all functional tests for your labs you
 are expected to ensure the following:
 
@@ -31,6 +31,8 @@ are expected to ensure the following:
   - Are all possible return values for methods
   - Passing null objects to method should not crash your program
   - Passing invalid method values should be handled as specified
+  - Every project has a small set of example tests to help guide you. The tests are not complete and you must author your own
+    tests.
 - (-2 points) Code compiles without warnings, there are **NO** acceptable warnings. All warnings
   indicate a problem with your code.
 - (-2 points) All TODO sections in the Retrospective.md must be completed
