@@ -10,13 +10,11 @@ jobs:
         with:
           ref: main
           
-      - name: check git version
-        run: git --version
+      - name: Install Jekyll
+        run: sudo apt-get install ruby-full build-essential zlib1g-dev && gem install jekyll bundler
           
       - name: Build jekyll  🔧 
-        run: |
-          docker run -v ${{ github.workspace }}:/srv/jekyll \
-          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && git --version"
+        run: pwd && jekyll build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
