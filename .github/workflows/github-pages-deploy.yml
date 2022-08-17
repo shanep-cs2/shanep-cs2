@@ -17,7 +17,7 @@ jobs:
         run: sudo gem install jekyll bundler
           
       - name: Build jekyll  🔧 
-        run: jekyll build
+        run: bash build-jekyll.sh
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
