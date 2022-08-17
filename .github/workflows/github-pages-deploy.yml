@@ -12,7 +12,7 @@ jobs:
       
       - name: Set ownership
         run: |
-          chown -R $(id -u):$(id -g) $PWD
+          chown -R $(id -u):$(id -g) ${{ github.workspace }}
           
       - name: Build jekyll  🔧 
         run: |
