@@ -11,10 +11,15 @@ jobs:
           ref: main
           
       - name: Install Jekyll
-        run: sudo apt-get install ruby-full build-essential zlib1g-dev && gem install jekyll bundler
+        run: sudo apt-get install ruby-full build-essential zlib1g-dev && \
+            gem install jekyll bundler && \
+            echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc && \
+            echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc  && \
+            echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc && \
+            source ~/.bashrc
           
       - name: Build jekyll  🔧 
-        run: pwd && jekyll build
+        run: jekyll build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
