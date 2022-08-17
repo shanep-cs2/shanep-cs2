@@ -10,6 +10,9 @@ jobs:
         with:
           ref: main
           
+      - name: Set safe dir for docker
+        run: config --global --add safe.directory *
+          
       - name: Build jekyll  🔧 
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
