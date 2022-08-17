@@ -11,7 +11,7 @@ jobs:
           ref: main
           
       - name: Set safe dir for docker
-        run: git config --global --add safe.directory *
+        run: git config --global --add safe.directory '*'
           
       - name: Build jekyll  🔧 
         run: |
