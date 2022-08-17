@@ -10,6 +10,9 @@ jobs:
         with:
           ref: main
           
+      - name: check git version
+        run: git --version
+          
       - name: Build jekyll  🔧 
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
