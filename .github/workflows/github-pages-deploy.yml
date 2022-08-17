@@ -13,7 +13,7 @@ jobs:
       - name: Build jekyll  🔧 
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
-          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && git config --global --add safe.directory '*' && jekyll build"
+          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && ls -la"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
