@@ -12,7 +12,8 @@ jobs:
 
       - name: Build jekyll  🔧 
         run: |
-          docker run -v ${{ github.workspace }}:/srv/jekyll jekyll/builder:latest /bin/bash -c "jekyll build"
+          docker run -v ${{ github.workspace }}:/srv/jekyll \
+          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
