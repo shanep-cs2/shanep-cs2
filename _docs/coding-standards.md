@@ -17,7 +17,7 @@ punctuation and expect to receive a 100% and the same exists for writing code. S
 
 Unless otherwise stated all code must compile and run on the department's computers in the [Kount Computer Lab
 (CCP241)](https://cs481.boisestate.edu/ccp-tour/index.html). It doesn't matter if your code compiles on your machine, it must
-compile on the computers provided in CCP241. **If you program fails to compile it will be awarded 0 points**. Absolutely no
+compile on the computers provided in CCP241. **If your program fails to compile it will be awarded 0 points**. Absolutely no
 partial credit will be given if your program does not compile.
 
 You can access the lab computers remotely via ssh or you can go to the lab and use a work station
