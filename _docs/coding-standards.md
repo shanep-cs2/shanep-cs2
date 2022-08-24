@@ -138,7 +138,7 @@ tests are not complete and you must author your own tests.
 
 Here are some guidelines for writing unit tests.
 
-- Are all possible return values for methods
+- Are all possible return values for methods accounted for and checked?
 - Passing null objects to a method should not crash your program
 - Passing invalid method values should be handled as specified
 
