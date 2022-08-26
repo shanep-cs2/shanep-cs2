@@ -1,5 +1,5 @@
 ---
-title: Take the Midterm Knowledge check
+title: Take the Midterm Knowledge Check
 tag: midterm
 layout: course
 points: 100
