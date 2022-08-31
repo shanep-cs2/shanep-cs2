@@ -1,5 +1,5 @@
 ---
-title: Make up Lab (optional)!
+title: Makeup Lab (optional)!
 tag: final
 layout: lab
 ---

@@ -7,12 +7,12 @@ video: SQzASvJBCgc
 
 ## Overview
 
-In this lesson we will review the concepts taught in CS121. For some of you it may have been a while
+In this lesson, we will review the concepts taught in CS121. For some of you it may have been a while
 since you have taken CS121 while others took it last semester. Either way please take the time to
-ensure you are up to speed on the pre-requisite knowledge so you can learn as much as possible
+ensure you are up to speed on the prerequisite knowledge so you can learn as much as possible
 during the rest of the semester.
 
-## Important topics
+## Important Topics
 
 These are the topics that were taught in CS121.
 

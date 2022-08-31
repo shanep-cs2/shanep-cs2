@@ -1,5 +1,5 @@
 ---
-title: "Class coding Standards"
+title: "Class Coding Standards"
 date: 2022-01-20
 tags: coding standards
 layout: course
@@ -8,8 +8,8 @@ layout: course
 ## Overview
 
 This document applies to all coding labs turned in during the semester. You are expected to follow these standards for all
-the code that you submit. Writing code is similar to writing an essay in english, part of writing a good paper is proper
-paragraph breaks and document structure. You wouldn't turn in an english 101 paper with 0 paragraph breaks, or proper
+the code that you submit. Writing code is similar to writing an essay in English, part of writing a good paper is proper
+paragraph breaks and document structure. You wouldn't turn in an English 101 paper with 0 paragraph breaks, or proper
 punctuation and expect to receive a 100% and the same exists for writing code. So take some time to make sure your code
 **looks** nice as well as the functional requirements.
 
@@ -20,12 +20,12 @@ Unless otherwise stated all code must compile and run on the department's comput
 compile on the computers provided in CCP241. **If your program fails to compile it will be awarded 0 points**. Absolutely no
 partial credit will be given if your program does not compile.
 
-You can access the lab computers remotely via ssh or you can go to the lab and use a work station
+You can access the lab computers remotely via ssh or you can go to the lab and use a workstation
 directly.
 
-## Functional requirements
+## Functional Requirements
 
-Your code must meet all the functional requirements that are listed in the specification document (located in your github
+Your code must meet all the functional requirements that are listed in the specification document (located in your GitHub
 repository). Functional requirements are worth 65% of the lab grade. Partial credit will be given for functional requirements
 if applicable.
 

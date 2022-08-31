@@ -8,10 +8,10 @@ video: h73OOO-0NLw
 
 ## Task 1 - Review and explore
 
-For this task all you need to do is explore the site. Click through all the links and see if you can
+For this task, all you need to do is explore the site. Click through all the links and see if you can
 find anything that is missing or broken! You can get extra credit for any typo you find on the
 course website. Read all the class policies to make sure you are familiar with what is expected of
-you during the semester. 
+you during the semester.
 
 ## Task 2 - Textbook
 
