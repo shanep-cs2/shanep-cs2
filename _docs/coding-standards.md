@@ -145,7 +145,7 @@ Here are some guidelines for writing unit tests.
 ### Criteria 6
 
 Code compiles without warnings, there are **NO** acceptable warnings. All warnings indicate a problem with your code. You
-are not allowed to suppress any warnings you must fix the issue in your code.
+are not allowed to suppress any warnings, you must fix the issue in your code.
 
 ### Criteria 7
 
