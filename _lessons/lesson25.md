@@ -7,11 +7,9 @@ points: 200
 
 ## Overview
 
-Now that we have studied how to use built-in data structures and algorithms it is time to write our
-own! For our final project in this class, we are going to construct a linked list. We will use two
-different methods to implement the linked list one will use nodes to store our data and one will use
-an array!  This should help demonstrate the power of interfaces and how different implementations
-can give you different performance characteristics.
+Now that we have studied how to use built-in data structures and algorithms it
+is time to write our own! For our final project in this class, we are going to
+construct a linked list.
 
 ## Additional Videos
 
