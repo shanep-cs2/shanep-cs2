@@ -7,7 +7,7 @@ layout: course
 ## Overview
 
 If you lost points on one of your labs all is not lost! There is a makeup lab that you can take advantage of to improve
-your grade. For the makeup lab you can pick ANY of your previous labs and resubmit them for a higher grade. The starter code
+your grade. For the makeup lab you can pick **ONE** of your previous labs and resubmit them for a higher grade. The starter code
 will be an empty repository. All you need to do is copy all the code from your old lab into the lab repo, fix any issues that
 you had and then re-submit!
 
